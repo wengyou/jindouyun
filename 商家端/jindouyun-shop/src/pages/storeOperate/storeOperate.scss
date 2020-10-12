@@ -1,0 +1,32 @@
+.storeOperate_container{
+    align-items: center;
+    .balance{
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        .right{
+            margin-right: 2vw;
+            font-size: 2rem;
+            color: #cdcdcd;
+        }
+    }
+    .income{
+        margin-top: 1px;
+        height: 4rem;
+        line-height: 2rem;
+    }
+    .goods{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3rem;
+        .right{
+            margin-right: 2vw;
+            font-size: 2rem;
+            color: #cdcdcd;
+        }
+    }
+}

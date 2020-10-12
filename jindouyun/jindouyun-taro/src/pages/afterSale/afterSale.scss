@@ -1,0 +1,21 @@
+.afterSale-container{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    .wrapper{
+        width: 90%;
+        height: 3rem;
+        line-height: 3rem;
+        margin: 0 auto;
+        .item1{
+            font-size: .8rem;
+        }
+        .item2{
+            margin-left: 6vw;
+            color: #919191;
+            font-size: .8rem;
+            margin-right: 1vh;
+        }
+    }
+}

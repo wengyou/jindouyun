@@ -1,0 +1,42 @@
+.totalOrder_container{
+    align-items: center;
+    font-size: 1rem;
+    .oddNum{
+        height: 2.6rem;
+        line-height: 2.6rem;
+    }
+    .orderItem{
+        font-size: 1rem;
+        border-bottom: 1px solid #f4f4f4;
+        margin-top: 1rem;
+        .orderNum {
+            text-indent: 1em;
+            line-height: 2rem;
+            color: #333333;
+        }
+        .goods_wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .total{
+            font-size: 1rem;
+            color: #666666;
+            text-indent: 1em;
+            margin-top: 1vh;
+        }
+        .total_price{
+            display: flex;
+            justify-content: flex-end;
+            font-size: .8rem;
+            margin-top: 1vh;
+            margin-right: 2vw;
+            .text{
+                color: #999999;
+            }
+            .price{
+                color: #fe8802;
+            }
+        }
+    }
+}

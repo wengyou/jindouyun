@@ -1,0 +1,138 @@
+.tangseng-container{
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    width: 100vw;
+    .header{
+        width: 95%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        .avatar{
+            border-radius: 0;
+            width: 180px;
+            height: 180px;  
+            margin-top: 30px;        
+        }
+        .username{
+            width: 100vw;
+            height: 30px;
+            text-align: center;
+            line-height: 80px;
+        }
+        
+        // .login{
+        //     width: 5rem;
+        //     height: 2rem;
+        //     background-color: #fdb200;
+        //     font-size: .8rem;
+        //     text-align: center;
+        //     color: #ffffff;
+        //     line-height: 2rem;
+        //     border-radius: .4rem;
+        // }
+    }
+    // 我的订单
+    .order{
+        height: 20vh;
+        margin-top: 20px;
+        .wrapper{
+            padding-top: 2vh;
+        }
+        .at-row{
+            margin-top: 2vh;
+            display: flex;
+            .item{
+                margin-left: 2vw;
+                height: 3.5rem;
+                display: flex;
+                flex-direction: column;
+                .img-item{
+                    width: 70px;
+                    height: 74px;
+                    margin: 0 auto;
+                }
+                .text-item{
+                    font-size: 0.6rem;
+                    margin-top: 1vh;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    // 我的积分
+    .code{
+        height: 10vh;
+        margin-top: 20px;
+        line-height: 10vh;
+        // text-indent: 1em;
+        .icon{
+            margin-top: 3vh;
+        }
+        .code-wrapper{
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+    // 我的地址
+    .address-parent{
+        margin-top: 20px;
+        height: 20vh;
+        .address-wrapper{
+            display: flex;
+            width: 100%;
+            background-color: #ffffff;
+            margin: 0 auto;
+            border-radius: 1rem;
+            .address{
+                width: 1.5rem;
+                height: 2.2rem;
+                margin-left: 2vw;
+            }
+            .wrapper{
+                margin: 0 auto;
+                width: 66vw;
+                .name{
+                    font-size: 1.2rem;
+                    color: #707070;
+                }
+                .phone{
+                    font-size: .8rem;
+                    color: #707070;
+                    margin-left: 4vw;
+                }
+                .build, .dorm{
+                    color: #707070;
+                    font-size: .8rem;
+                }
+                .dorm{
+                    margin-left: 4vw;
+                }
+            }
+        }
+    }
+
+    //登录
+    .login{
+        display: block;
+        width: 95%;
+        height: 3rem;
+        margin: 20px auto;
+        background-color: #fdb200;
+        font-size: 1rem;
+        text-align: center;
+        color: #ffffff;
+        line-height: 3rem;
+        border-radius: .3rem;
+    }
+}
+.right{
+    width: 36px;
+    height: 36px;
+}
+.right2{
+    width: 36px;
+    height: 36px;
+    margin: auto 0;
+}

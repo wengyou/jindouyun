@@ -1,0 +1,69 @@
+.tangseng-container{
+    background-color: #fdb200 ;
+    min-height: 100vh;
+    width: 100vw;
+    .header{
+        width: 95%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .wrapper{
+            display: flex;
+            .avatar{
+                margin: 4vh 4vw;
+            }
+            .username{
+                line-height: 20vh;
+            }
+        }
+        
+        .login{
+            line-height: 20vh;
+            margin-left: 30vw;
+        }
+    }
+    .order{
+        height: 20vh;
+        margin-top: 2vh;
+        .at-row{
+            margin-top: 2vh;
+            .item{
+                height: 3.5rem;
+                // background-color: #CDCDCD;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                display: flex;
+                flex-direction: column;
+                .img-item{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    background-color: blue;
+                    margin: 0 auto;
+                }
+                .text-item{
+                    font-size: 0.6rem;
+                    margin-top: 0.4vh;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .code{
+        height: 10vh;
+        margin-top: 2vh;
+        line-height: 10vh;
+        // text-indent: 1em;
+        .icon{
+            margin-top: 3vh;
+        }
+        .code-wrapper{
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+    .address{
+        margin-top: 2vh;
+        height: 14vh;
+    }
+}

@@ -1,0 +1,17 @@
+.preOrder-wrapper{
+    width: 90%;
+    height: 20vh;
+    margin: 1vh auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    .checkbox{
+        margin-left: 2vw;
+        width: 1.5rem;
+        height: 1rem;
+        border-radius: 0.2rem;
+        box-shadow:rgba(0,0,0,.3) 0px 0px 0.1rem;
+        color: #ffffff;
+    }
+}

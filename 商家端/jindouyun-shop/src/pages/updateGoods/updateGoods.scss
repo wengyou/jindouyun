@@ -1,0 +1,47 @@
+.updateGoods_container{
+    .uploadImg{
+        margin-left: 1rem;
+        font-size: 1rem;
+        line-height: .8rem;
+    }
+    .addBtn{
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        background-color: #fd8900;
+        border-radius: 8px;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    .deleteBtn{
+        width: 138px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background-color: #ff2200;
+        color: #ffffff;
+    }
+    .setBtn{
+        width: 138px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background-color: #fd8900;
+        color: #ffffff;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .at-card__header{
+        height: 100px;
+        .at-card__header-thumb-info{
+            width: 60px;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .title{
+        margin: 20px 0 20px 30px;
+    }
+}

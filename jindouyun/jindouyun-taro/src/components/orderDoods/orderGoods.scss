@@ -1,0 +1,57 @@
+.orderGoods-container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    .orderGoods-img{
+        width: 120px;
+        height: 120px;
+        margin-left: 2vw;
+        // border: 1px solid #919191;
+        background-color: #f4f4f4;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 60px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        color: #333333;
+        .weight{
+            font-size: 0.8rem;
+            margin-top: 1.5vh;
+            color: #333333;
+        }
+        .paid-price{
+            color: #fd8900;
+            // position: absolute;
+            // bottom: 36px;
+        }
+   }
+    .price{
+        display: flex;
+        position: absolute;
+        right: 2vw;
+        color: #707070;
+        .number{
+            font-size: 0.8rem;
+            margin-left: 1vw;
+            line-height: 5vh;
+        }
+    }
+    .number{
+        margin-top: 12vh;
+        margin-left: 15vw;
+    }
+    .num_goods{
+        width: 2rem;
+        height: 1rem;
+        border: 1px solid #fd8900;
+        text-align: center;
+        line-height: 1rem;
+        color: #919191;
+        font-size: .8rem;
+    }
+}

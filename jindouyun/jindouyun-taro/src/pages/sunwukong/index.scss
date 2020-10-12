@@ -1,0 +1,79 @@
+.sunwukong-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 95%;
+    height: 100vh;
+    justify-content: space-between;
+    margin: 2vh auto;
+    margin-bottom: 10rem;
+    font-size: 30px;
+    border-radius: 8px;
+    .itemForm{
+        justify-content: space-between;
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        .title{
+            // width: 10rem;
+        }
+        .at-list__item::after{
+            border-bottom: 1px solid #fdb200;
+            border-top: 1px solid #fdb200;
+        }
+        .at-radio__icon .at-icon{
+            color: #fdb200;
+        }
+        .at-textarea, .at-textarea--WEAPP{
+            width: 400px;
+            height: 5rem;
+            margin-right: 30px;
+            border: 1px solid #fdb200;
+            margin-bottom: 30px;
+        }
+        .at-input{
+            width: 400px;
+            height: 1rem;
+            border: 1px solid #fdb200;
+            margin-right: 30px;
+            border-radius: .2rem;
+        }
+        .wrapper{
+            display: flex;
+            width: 24vw;
+            height: 1.5rem;
+            margin-left: 4vw;
+            justify-content: space-between;
+            border: 1px solid #fdb200;
+            border-radius: .2rem;
+            color: #919191;
+            .down{
+                width: 4vw;
+                height: 1.5rem;
+                background-color: #fdb200;
+                color: #fff;
+                text-align: center;
+                line-height: 1.5rem;
+                font-size: .6rem;
+            }
+            .type{
+                width: 20vw;
+                height: 1.5rem;
+                text-align: center;
+                line-height: 1.5rem;
+                .type-item{
+                    display: none;
+                }
+                .type-action{
+                    display: flex;
+                    flex-direction: column;
+                    width: 20vw;
+                    border: 1px solid #fdb200;
+                }
+            }
+        }
+        
+    }
+}

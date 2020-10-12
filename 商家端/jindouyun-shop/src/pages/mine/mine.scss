@@ -1,0 +1,39 @@
+.mine_container{
+    align-items: center;
+    .business_img{
+        width: 5rem;
+        height: 5rem;
+        background-color: #666666;
+        border-radius: .3rem;
+    }
+    .name{
+        text-align: center;
+    }
+    .right{
+        margin-right: 2vw;
+        font-size: 2rem;
+        color: #cdcdcd;
+    }
+    .auth_btn{
+        width: 4rem;
+        height: 1.6rem;
+        background-color: #ff7900;
+        color: #fff;
+        text-align: center;
+        line-height: 1.6rem;
+        font-size: .8rem;
+        border-radius: 8px;
+    }
+    .at-radio__icon .at-icon{
+        color: #fdb200;
+    }
+    .login{
+        width: 90%;
+        height: 2.6rem;
+        background-color: #fdb200;
+        color: #fff;
+        line-height: 2.6rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+}

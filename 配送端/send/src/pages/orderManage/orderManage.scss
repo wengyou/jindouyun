@@ -1,0 +1,36 @@
+.orderRecord_container{
+    .at-tabs__item{
+        background-color: #fdb200;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+    .at-tabs__item-underline {
+        background-color: #fdb200;
+    }
+    .at-tabs__item--active {
+        color: #ffffff; 
+        font-size: 1.3rem;
+    }
+    .title{
+        width: 100%;
+        height: 160px;
+        align-items: center;
+    }
+    .wrapper{
+        width: 90%;
+        margin: 20px auto;
+        .item{
+            margin-top: 14px;
+        }
+    }
+    .confirm_btn{
+        width: 180px;
+        height: 60px;
+        background-color: #fdb200;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 8px;
+        color: #ffffff;
+        margin: 14px auto;
+    }
+}

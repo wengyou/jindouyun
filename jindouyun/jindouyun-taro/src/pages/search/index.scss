@@ -1,0 +1,64 @@
+.search_wrap{
+    height: 105px;
+
+    .at-search-bar{
+        background-color: #fdb200;
+    }
+
+    .at-search-bar__input-cnt{
+        height: 68px;
+        border-radius: 8px;
+    }
+
+    .at-search-bar::after{
+        border: none;
+    }
+
+    .at-search-bar__action{
+        height: 68px;
+        line-height: 68px;
+        background-color: #fd8900;
+        font-size: 36px;
+    }
+
+}
+.search_list_img{
+    width: 120px;
+    height: 80px;
+}
+
+.search_delete{
+    width: 22px;
+    height: 29px;
+}
+
+.search_history{
+    height: 40px;
+    line-height: 40px;
+    background-color: #c9c9c9;
+
+}
+
+.search_item_wrap{
+    height: 228px;
+    margin-bottom: 10px;
+}
+
+.search_item_img{
+    width: 212px;
+    height: 212px;
+}
+
+.search_item_btn{
+    width: 120px;
+    height: 50px;
+}
+
+.search_null_img{
+    width: 286px;
+    height: 271px;
+}
+
+.search_null_img_wrap{
+    margin-top: 220px;
+}

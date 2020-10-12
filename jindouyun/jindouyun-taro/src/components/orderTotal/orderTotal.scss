@@ -1,0 +1,33 @@
+.orderTotal-container{
+    width: 95vw;
+    margin: 0 auto;
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ffffff;
+    .total{
+        color: #ff7900;
+        line-height: 1.6rem;
+    }
+    .order{
+        width: 5rem;
+        height: 1.6rem;
+        text-align: center;
+        line-height: 1.6rem;
+        border-radius: .2rem;
+        font-size: .8rem;
+        margin-bottom: 2vh;
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+    .cancel-order{
+        border: 1px solid #ff7900;
+        background-color: #fff;
+        color: #ff7900;
+    }
+    .confirm-order{
+        color: #ffffff;
+        background-color: #fdb200;
+        margin-right: 2vw;
+    }
+}

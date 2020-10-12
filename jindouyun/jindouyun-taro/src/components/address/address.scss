@@ -1,0 +1,49 @@
+.address-container{
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     height: 14vh;
+     background-color: #ffffff;
+     margin: 2vh auto;
+     border-radius: .4rem;
+     align-items: center;
+     .address{
+         width: 1.5rem;
+         height: 2.2rem;
+         margin: auto 2vw;
+     }
+     .del{
+         line-height: 14vh;
+         margin-left: 2vw;
+         color: #ffb300;
+         font-size: .8rem;
+     }
+     .default{
+        line-height: 14vh;
+        color: #ffb300;
+        font-size: .8rem;
+     }
+     .wrapper{
+         .name{
+             font-size: 1.2rem;
+         }
+         .phone{
+             font-size: .8rem;
+             color: #707070;
+             margin-left: 4vw;
+         }
+         .build, .dorm{
+             color: #707070;
+             font-size: .8rem;
+         }
+         .dorm{
+             margin-left: 4vw;
+         }
+     }
+     .right{
+         width: 1.2rem;
+         height: 1.2rem;
+         margin: auto 0;
+         margin-right: 4vw;
+     }
+}

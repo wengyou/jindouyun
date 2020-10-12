@@ -1,0 +1,1 @@
+.goods_wrap .at-tabs__underline{display:none}.goods_wrap .at-tabs__item{font-size:26rpx;padding:24rpx;color:#707070}.goods_wrap .at-tabs__item--active{color:#fdb200}.goods_wrap .at-tabs__item-underline{background-color:#fdb200}.goods_list_none_wrap{margin-top:200rpx}.goods_list_none_img{width:235rpx;height:283rpx}

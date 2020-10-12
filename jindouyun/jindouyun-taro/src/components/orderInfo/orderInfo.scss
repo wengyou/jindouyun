@@ -1,0 +1,57 @@
+.orderInfo-container{
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    font-size: .8rem;
+    width: 90%;
+    margin: 20px auto;
+    .at-list__item .item-extra__info{
+        color: #fdb200;
+    }
+    .item{
+        margin-top: 2vh;
+    }
+    .action{
+        color: #fd9922;
+        margin-left: 20px;
+    }
+    .delivery-time{
+        display: flex;
+        // .at-list::after {
+        //     border: 1px solid #cccccc;
+        // }
+        .at-list__item{
+            padding: 0;
+        }
+    }
+    .remarks{
+        display: flex;
+        margin-bottom: 2vh;
+        .at-textarea{
+            border: 1px solid #cccccc;
+            width: 64vw;
+            height: 10vh;
+        }     
+    }
+    .remarks_action{
+        display: flex;
+        margin-bottom: 2vh;
+        .at-textarea{
+            border: 1px solid #fd9922;
+            width: 64vw;
+            height: 10vh;
+        }  
+    }
+    .num-price{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        .price{
+            color: #fdb200;
+        }
+        .total{
+            color: #fdb200;
+        }
+    }
+}

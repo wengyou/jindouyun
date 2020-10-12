@@ -1,0 +1,19 @@
+.cart-container{
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    .header{
+        width: 100%;
+        height: 20vh;
+        background-color: #fdb200;
+        display: flex;
+        justify-content: space-between;
+        line-height: 30vh;
+        color: #ffffff;
+        .item1{
+            margin-left: 8vw;
+        }
+        .item2{
+            margin-right: 8vw;
+        }
+    }
+}

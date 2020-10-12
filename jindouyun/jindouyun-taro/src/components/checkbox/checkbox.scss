@@ -1,0 +1,16 @@
+.checkbox-container, .checkbox-action{
+    width: 1rem;
+    height: 1rem;
+    box-shadow: #666 0px 0px 6px; 
+    border-radius: .2rem;
+    margin-left: 2vw;
+    color: #ffffff;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.checkbox-container{
+    background-color: #ffffff;
+}
+.checkbox-action{
+    background-color: #ff7900;
+}

@@ -1,0 +1,16 @@
+.service-container{
+    .after-sale,.advice{
+        background-color: #ffffff;
+        width: 90%;
+        height: 3rem;
+        margin-top: 2vh;
+        border-radius: .4rem;
+        .right{
+            margin-right: 4vw;
+        }
+        .item{
+            line-height: 3rem;
+            margin-left: 2vw;
+        }
+    }
+}

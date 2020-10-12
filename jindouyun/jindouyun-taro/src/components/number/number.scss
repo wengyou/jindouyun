@@ -1,0 +1,22 @@
+.number-container-only{
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+    .at-input-number{
+        // border: 1px solid #fdb200;
+        width: 20vw;
+        height: 3vh;
+        border: none;
+        .at-input-number__btn{
+            background-color: #fdb200;
+            color: #ffffff;
+        }
+        .at-input-number--disabled{
+            background-color: #CCC;
+        }
+        .at-input-number__input{
+            color: #ff8b22;
+            border: none;
+        }
+    }
+}

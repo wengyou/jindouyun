@@ -1,0 +1,104 @@
+@import "~taro-ui/dist/style/index.scss";
+.flexCol_wd{
+    display: flex;
+    flex-direction: column; 
+}
+.flexRow_wd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.white_box{
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: .2rem;
+    background-color: #ffffff;
+}
+.font_wd{
+    font-size: 1rem;
+    text-align: center;
+}
+//字体大小
+.fontSize1 {
+    font-size: 1.2rem;
+}
+.fontSize2 {
+    font-size: .8rem;
+}
+.fontSize3 {
+    font-size: 1rem;
+}
+.fontSize4{
+    font-size: .6rem;
+}
+//字体颜色
+.fontColor1{
+    color: #656565;                                                   
+}
+.fontColor2{
+    color: #fd8900;
+}
+.fontColor3{
+    color: #fdb200;
+}
+//字体间距
+.fontRange1{
+    line-height: 2rem;
+}
+.fontRange2{
+    line-height: 2.5rem;
+}
+//背景色
+.bgColor{
+    background-color: #f4f4f4;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+//左距
+.leftRange{
+    margin-left: 2vw;
+}
+//右距
+.rightRange{
+    margin-right: 2vw;
+}
+//下距
+.bottomRange{
+    margin-bottom: 1rem;
+}
+.bottomRange0{
+    margin-bottom: .2rem;
+}
+//上距
+.topRange{
+    margin-top: 1rem;
+}
+.topRange0{
+    margin-top: .2rem;
+}
+.bottom_line {
+    border-bottom: 1px solid #f4f4f4;
+}
+//高度
+// .box_height {
+//     height: 3rem;
+// }
+
+//无订单接取状态
+.none_order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    .none_img{
+        width: 100px;
+        height: 120px;
+    }
+    .none_content{
+        line-height: 70px;
+    }
+}

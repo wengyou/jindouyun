@@ -1,0 +1,26 @@
+.advice-container{
+    background-color: #f4f4f4;
+    .at-textarea {
+        width: 90%;
+        height: 40vh;
+        border: 1px solid #ff7900;
+        border-radius: .4rem;
+        background-color: #ffffff;
+        margin: 2vh auto;
+    }
+    .at-input{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .submit{
+        color: #ffffff;
+        background-color: #ff7900;
+        width: 4rem;
+        height: 1.5rem;
+        border-radius: .3rem;
+        margin: 2vh auto;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,88 @@
+@import '~taro-ui/dist/style/index.scss';
+
+page{
+    height: 100%;
+    background-color: #F3F4F5;
+  }
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+  }
+
+.vh_full{
+    height: 100vh;
+  }
+
+.vw_full{
+    width: 100vw;
+  }
+
+.full_height{
+    height: 100%;
+  }
+
+.full_width{
+    width: 100%;
+  }
+
+.ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+
+.word_break{
+    word-break: break-word;
+  }
+
+.bold{
+    font-weight: bold;
+}
+
+.fontS_20{
+  font-size: 20px;
+}
+
+.fontS_24{
+  font-size: 24px;
+}
+
+.fontS_26{
+  font-size: 26px;
+}
+
+.fontS_28{
+  font-size: 28px;
+}
+
+.fontS_30{
+  font-size: 30px;
+}
+
+.fontS_36{
+  font-size: 36px;
+}
+
+.white-box{
+  width: 95%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.flex-wd{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 2vh auto;
+}
+.right{
+  width: 36px;
+  height: 36px;
+  margin: auto 0;
+}
+
+.min-width{
+  min-width: 0;
+}

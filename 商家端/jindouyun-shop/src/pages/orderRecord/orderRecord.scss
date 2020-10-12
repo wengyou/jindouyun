@@ -1,0 +1,27 @@
+.orderRecord_container{
+    .at-tabs__item{
+        background-color: #fdb200;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+    .at-tabs__item-underline {
+        background-color: #fdb200;
+    }
+    .at-tabs__item--active {
+        color: #ffffff; 
+        font-size: 1.2rem;
+    }
+    .orderItem{
+        margin-top: 20px;
+        .wrapper_order{
+            .right{
+                font-size: 2rem;
+                color: #cdcdcd;
+            }
+        }
+        .total_price{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
